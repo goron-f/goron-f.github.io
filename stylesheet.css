@@ -1,0 +1,36 @@
+.info{
+	background-color:rgb(0, 153, 255);
+	border-bottom-style: solid;
+	color:white;
+}
+header {
+height: 55px;
+width:100%;
+background-color:rgb(58, 157, 255);
+position: fixed;
+top:0;
+}
+.header-right{
+color:indigo;
+font-size:36px;
+float:right;
+margin-top:12px;
+margin-right: 36px;
+background-color:rgb(50, 140, 230);
+}
+.header-right a {
+  display: inline-block;
+}
+.header-left{
+  color:rgba(62, 255, 165, 0.88);
+  font-size:36px;
+  float:left;
+  margin-left: 36px;
+  margin-top:12px;
+  }
+.top{
+margin-top:80px;
+}
+.header-right:hover{
+color:rgb(221, 255, 99);
+}
