@@ -1,1 +1,2 @@
-# goron-f.github.io
+> GIT初心者
+`アババババばば。`
