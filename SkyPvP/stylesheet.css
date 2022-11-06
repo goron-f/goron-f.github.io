@@ -1,19 +1,18 @@
 header {
   height: 40px;
-  width:100%;
-  background-color:rgb(58, 157, 255);
-  top:0;
+  width: 100%;
+  background-color: rgb(58, 157, 255);
+  top: 0;
   position: fixed;
   opacity: 0.8;
-  box-shadow: 0px 15px rgba(62, 255, 165, 0.88);
-  }
+}
   .header-left{
     float:left;
     color:rgba(62, 255, 165, 0.88);
     }
     .headerfont{
       float:left;
-      margin-top:12px;
+      margin-top: 6px;
       font-size:24px;
       margin-left:10px;
     }
