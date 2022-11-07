@@ -33,6 +33,15 @@ width:180px;
 height:180px;
 border-radius:5px 5px 15px 15px;
 }
+.addon-png {
+  margin-left: 450px;
+  padding: 20px 20px 80px 20px;
+  background: linear-gradient(#ffffff, #f5fcffb2);
+  width: 180px;
+  height: 180px;
+  border-radius: 5px 5px 15px 15px;
+margin-top: -280px;
+}
 .info{
 font-size:30px;
 }
