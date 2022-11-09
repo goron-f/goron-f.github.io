@@ -1,5 +1,5 @@
 body {
-  background:#b36cfeb2;
+
   margin: 0px;
   -webkit-text-size-adjust: 100%;
   height:1000px;
@@ -82,13 +82,21 @@ font-family: 'fonts';
     margin: auto;
     max-width: 800px;
     padding: 10px;
-    background-color:white;
   }
   .footer{
-    width: 100%;
-      background-color: #FDE9FB;
-    }
-        .main {
-          height: 1000px;
-
-        }
+  width: 100%;
+  background-color: #a047ffbb;
+  height:80px;
+  }
+.main {
+height: 1000px;
+background-color:#55ebff;
+  }
+.footer-1{
+margin-left:-100px;
+margin-top:10px;
+color:#5569ff;
+}
+.discord{
+opacity: 0.9;
+}
