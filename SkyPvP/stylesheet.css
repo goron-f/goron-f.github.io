@@ -38,6 +38,7 @@ width:295px;
   width:200px
 }
 .space{
+  /*スペース開けようのCSS*/
 margin-top:20px;
 }
 .sever-info:hover{
@@ -86,6 +87,8 @@ transition:all 0.4s;
 }
 li{
 margin-left:10px;
+/*あんだーばー消す*/
+text-decoration:none;
 }
 @font-face {
   font-family:'fonts';
@@ -93,4 +96,7 @@ margin-left:10px;
 }
 .header-sky{
 opacity: 1.0;
+}
+a{
+text-decoration:none;
 }
