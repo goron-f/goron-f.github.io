@@ -99,7 +99,7 @@ background-color:#55ebff;
   }
 .footer-1{
 margin-top:15px;
-background-color:rgb(77, 77, 77);
+background-color:rgb(77, 77, 7o7);
 width:91px;
 box-shadow:0px 5px rgb(95, 95, 95);
 border-radius: 5px 5px 5px 5px;
@@ -111,5 +111,5 @@ top:5px;
 box-shadow: none;
 }
 a.no-c{
-color:black;
+color:rgb(0, 0, 0);
 }
