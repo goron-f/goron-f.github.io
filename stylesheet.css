@@ -34,6 +34,7 @@ border-radius:5px 5px 15px 15px;
 outline-color:#dce0ff;
 outline-style:solid;
 outline-width:5px;
+font-family:DotGothic16 ,sans-serif;
 }
 .addon-png {
   margin-left: 450px;
@@ -46,6 +47,7 @@ outline-width:5px;
   outline-color: #dce0ff;
   outline-style: solid;
   outline-width: 5px;
+  font-family:DotGothic16 ,sans-serif;
 }
 .info{
 font-size:30px;
@@ -90,7 +92,7 @@ font-family: 'fonts';
   }
 footer{
   width: 100%;
-  background-color: #2e2e2e;
+  background-color: #d7ff95;
   height:80px;
   }
 .main {
@@ -99,9 +101,9 @@ background-color:#55ebff;
   }
 .footer-1{
 margin-top:15px;
-background-color:rgb(77, 77, 7o7);
+background-color:rgb(140, 170, 128);
 width:91px;
-box-shadow:0px 5px rgb(95, 95, 95);
+box-shadow:0px 5px rgb(110, 132, 101);
 border-radius: 5px 5px 5px 5px;
 margin-left:-150px;
 }
@@ -111,5 +113,5 @@ top:5px;
 box-shadow: none;
 }
 a.no-c{
-color:rgb(0, 0, 0);
+color:rgb(181, 208, 169);
 }
