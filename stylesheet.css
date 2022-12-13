@@ -19,7 +19,7 @@ body {
 }
 .headerfont1{
 font-size:40px;
-animation:header-font 3s infinite;
+animation:header-font 5s infinite;
 font-family: 'Yusei Magic' sans-serif;
 }
 .pages{
@@ -54,38 +54,6 @@ font-family:DotGothic16 ,sans-serif;
 .info{
 font-size:30px;
 }
-@keyframes bg-color {
-    0% {
-        background-color:rgba(1, 196, 141, 0.625);
-      }
-      60% {
-        background-color:  #5569ff;
-      }
-
-      100% {
-        background-color: rgba(1, 196, 141, 0.625);
-      }
-    }
-@keyframes header-font {
-  0% {
-   color: #b5ff83;
-  }
-
-  33% {
-  color:#55ebff;
-  }
-
-  66% {
-  color: #f94a78;
-  }
-  100%{
-  color:#b5ff83;
-  }
-}
-@font-face{
-font-family: 'fonts';
-  src: url('fonts.ttf') format('truetype');
-}
 .footer-write {
     margin: auto;
     max-width: 800px;
@@ -96,7 +64,7 @@ footer{
   width: 100%;
   background-color: #d7ff95;
   height:180px;
-  font-family: 'Press Start 2P','Noto Color Emoji' ,sans-serif;
+  font-family: 'Martian Mono', monospace,'Noto Color Emoji' ,sans-serif;
   }
 .main {
 height: 1000px;
@@ -105,7 +73,7 @@ background-color:#55ebff;
 .footer-1{
 margin-top:75px;
 background-color:rgb(52, 52, 52);
-width:167px;
+width:fit-content;
 box-shadow:0px 5px rgb(110, 132, 101);
 border-radius: 5px 5px 5px 5px;
 margin-left:-150px;
@@ -124,15 +92,65 @@ color:rgb(181, 208, 169);
   font-family: 'Press Start 2P','Noto Color Emoji' ,sans-serif;
   padding-top:8px;
   color:#55ff8b;
+  animation:footer-font 0.5s infinite;
 }
 .footer_head2{
   height: 40px;
   background-color: #8a4d83;
   border-radius: 25px 25px 25px 25px;
   width: 1200px;
-  margin-left:120px
+  margin-left:120px;
+
 }
 .footer_head{
   height: 40px;
   background-color: #c379e3;
+}
+@keyframes bg-color {
+  0% {
+      background-color:rgba(1, 196, 141, 0.625);
+    }
+    60% {
+      background-color:  #5569ff;
+    }
+
+    100% {
+      background-color: rgba(1, 196, 141, 0.625);
+    }
+  }
+@keyframes header-font {
+0% {
+ color: #b5ff83;
+}
+
+33% {
+color:#55ebff;
+}
+
+66% {
+color: #f94a78;
+}
+100%{
+color:#b5ff83;
+}
+}
+@font-face{
+font-family: 'fonts';
+src: url('fonts.ttf') format('truetype');
+}
+@keyframes footer-font {
+  0% {
+   color: #66ff00;
+  }
+  
+  33% {
+  color:#00e1ff;
+  }
+  
+  66% {
+  color: #a600ff;
+  }
+  100%{
+  color:#ff7c48;
+  }
 }
