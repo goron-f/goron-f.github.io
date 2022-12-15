@@ -3,6 +3,7 @@ body {
   -webkit-text-size-adjust: 100%;
   height:1000px;
   font-family: 'fonts',sans-serif;
+  width: 100%;
 }
 
 .header-main {
@@ -60,6 +61,10 @@ font-size:30px;
     padding: 10px;
     font-size:24px;
   }
+  .footer_set{
+    margin-top:75px;
+    width:fit-content;  
+  }
 footer{
   width: 100%;
   background-color: #d7ff95;
@@ -69,15 +74,29 @@ footer{
 .main {
 height: 1000px;
 background-color:#55ebff;
+width: 100%;
   }
 .footer-1{
-margin-top:75px;
+  width:fit-content;
 background-color:rgb(52, 52, 52);
-width:fit-content;
 box-shadow:0px 5px rgb(110, 132, 101);
 border-radius: 5px 5px 5px 5px;
 margin-left:-150px;
 }
+.footer-2{
+  width:fit-content;
+background-color:rgb(52, 52, 52);
+box-shadow:0px 5px rgb(110, 132, 101);
+border-radius: 5px 5px 5px 5px;
+margin-left:-150px;
+text-align: left;
+margin-top:10px;
+}
+.footer-2:active{
+  position:relative;
+  top:5px;
+  box-shadow: none;
+  }
 .footer-1:active{
 position:relative;
 top:5px;
@@ -87,7 +106,7 @@ a.no-c{
 color:rgb(181, 208, 169);
 }
 .footer_top{
-  font-size:24px;
+  font-size:1.25em;
   font-weight: bold;
   font-family: 'Press Start 2P','Noto Color Emoji' ,sans-serif;
   padding-top:8px;
@@ -98,9 +117,9 @@ color:rgb(181, 208, 169);
   height: 40px;
   background-color: #8a4d83;
   border-radius: 25px 25px 25px 25px;
-  width: 1200px;
   margin-left:120px;
-
+  margin-right:120px;
+  min-width: 240px;
 }
 .footer_head{
   height: 40px;
